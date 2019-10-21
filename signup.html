@@ -1,0 +1,62 @@
+<html>
+
+    <head >
+               
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body style="background-image: url('background_image.jpg');">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <div class="navbar-brand">Price Compare Site</div>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <div class="row row-style">
+            <div class="col-xs-6">
+            <div class="panel panel-primary">
+            <div class="panel-heading">
+                <center> <h1>Sign Up</h1></center>
+            </div>
+            <div class="panel-body">
+            <form method="POST" action="signup.php">
+                <div class="form-group">
+                <input type="text" class="form-control" name="fname" placeholder="First Name" required="true">  
+                </div>
+                <div class="form-group">
+                <input type="text" class="form-control" name="lname" placeholder="Last Name" required="true">                
+                </div>
+                <div class="form-group">
+                <input type="text" class="form-control" name="uname" placeholder="User Name" required="true">                
+                </div>             
+                <div class="form-group">
+                <input type="email" class="form-control" name="email" placeholder="Email" required="true">
+                </div>
+                <div class="form-group">
+                <input type="password" class="form-control" name="password" placeholder="Password" required="true">
+                </div>
+                <input type="submit" value="submit" class="btn btn-primary">                 
+            </form>  
+            </div>
+            </div>
+            </div>
+    </div>
+    <div class="footer">
+            <p>Copyright © Price Compare Site. All Rights Reserved | Contact Us: +91 9651807367</p>         
+        </div>     
+    </body>
+</html>
