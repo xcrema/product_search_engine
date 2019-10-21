@@ -113,7 +113,7 @@ else {
 </div>
 </div>
 <footer class="w3-container w3-teal w3-opacity">
-<p>Copyright @Me</p>
+<p>Copyright @Priyanshu_Achyut</p>
 </footer>
 </body>
 </html>
